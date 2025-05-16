@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 7 DOM</title>
+</head>
+
+<body>
+
+    <!-- <button id="btnClicar">Clique Aqui</button>
+    <p id="paragrafo">Lorem ipsum dolor sit amet consectetur adipisicing.</p> -->
+
+    <form id="form" style="display: flex; flex-direction: column; width: 500px;">
+        <label for="nome">Nome: </label>
+        <input type="text" id="nome">
+
+        <label for="email">Email: </label>
+        <input type="text" id="email">
+
+        <label for="assunto">Assunto: </label>
+        <select id="assunto">
+            <option value="Option1">Reclamação</option>
+            <option value="Option2">Sugestão</option>
+            <option value="Option3">Crítica</option>
+        </select>
+
+        <label for="mensagem">Mensagem: </label>
+        <textarea id="mensagem"></textarea>
+
+        <button id="btnEnviar">Enviar</button>
+        <p id="error"></p>
+
+        <div id="cadastroUsuarios">
+            <h2>Usuários:</h2>
+        </div>
+    </form>
+
+</body>
+<script src="./app.js"></script>
+
+</html>
