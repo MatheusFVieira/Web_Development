@@ -64,7 +64,6 @@ function executarSplice() {
   document.getElementById('resultado-splice').textContent = resultado;
 }
 
-
 function executarIndexOf() {
   const array = ['🍎', '🍌', '🍇'];
   const resultado = array.indexOf('🍇'); // Retorna o índice do elemento '🍌'
@@ -85,7 +84,6 @@ function executarForEach() {
       });
   document.getElementById('resultado-foreach').textContent = resultado;
 }
-
 
 function executarMap() {
   const array = ['🍎', '🍌', '🍇'];
@@ -141,8 +139,6 @@ function executarSome() {
   const resultado = array.some(fruta => fruta === '🥝'); // Verifica se pelo menos um elemento é '🥝'
   document.getElementById('resultado-some').textContent = resultado;
 }
-
-
 
 function executarEncadeamento() {
   const jogos = ['Zelda', 'Mario', 'Elden Ring', 'Fortnite', 'Minecraft'];

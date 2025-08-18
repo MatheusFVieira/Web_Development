@@ -63,7 +63,6 @@ function executarSplice() {
   document.getElementById('resultado-splice').textContent = resultado;
 }
 
-
 function executarIndexOf() {
   const array = ['🍎', '🍌', '🍇'];
   const resultado = array;
@@ -146,12 +145,3 @@ function executarEncadeamento() {
   const resultado = 'Resultado da operação encadeada';
   document.getElementById("resultado-encadeamento").textContent = resultado.join(', ') || 'Nenhum jogo encontrado';
 }
-
-
-// let nome = "Matheus";
-
-// const id = 1;
-
-// let nomes = ["Matheus", "Caio"]
-
-// const ordenar = (a, b) => a - b;
