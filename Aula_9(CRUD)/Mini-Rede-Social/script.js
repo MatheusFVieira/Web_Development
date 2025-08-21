@@ -43,7 +43,6 @@ window.onload = function(){
 
     posts.unshift(novoPost)
 
-
     document.querySelector("#postForm").reset()
     mostrarPost();
  }
